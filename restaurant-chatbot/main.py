@@ -36,4 +36,4 @@ async def on_message(message):
         await message.channel.send(f'{make_request(message.content)}')
 
 
-bot.run('MTE4MDkwNDU3MTA3NDI0ODg4NQ.GoraJ9.Z1cDWHkRtTEsc7FDQlhponDz12CW7gVnJcaHRA')
+bot.run('BOT_API_KEY')
