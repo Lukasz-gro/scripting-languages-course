@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "name": "Oyakodon",
+      "price": 16,
+      "preparation_time": 1
+    },
+    {
+      "name": "Katsudon",
+      "price": 12,
+      "preparation_time": 0.5
+    },
+    {
+      "name": "Ramen",
+      "price": 4,
+      "preparation_time": 0.1
+    },
+    {
+      "name": "Curry",
+      "price": 12.5,
+      "preparation_time": 0.2
+    },
+    {
+      "name": "Gyudon",
+      "price": 15,
+      "preparation_time": 0.5
+    }
+  ]
+}

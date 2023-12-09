@@ -1,0 +1,38 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - ask_opening_hours
+  - order_items
+  - show_menu
+  - order_finished
+
+actions:
+  - action_check_opening_hours
+  - action_check_menu_items
+  - action_show_menu
+
+responses:
+  utter_greet:
+  - text: "Hey! Would would you like to do? See menu or order some tasty food?"
+
+  utter_goodbye:
+  - text: "Goodbye! I hope to see you soon!"
+
+  utter_order_finish:
+  - text: "Your order has been booked! Bon Appetit!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by good food."
+
+entities:
+  - hour
+  - day
+  - product
+  - custom_dish
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

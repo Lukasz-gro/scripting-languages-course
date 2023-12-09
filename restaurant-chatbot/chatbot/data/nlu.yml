@@ -1,0 +1,119 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_opening_hours
+  examples: |
+    - are you open [now](hour)?
+    - are you open at [11:00](hour)?
+    - are you open at [11:00](hour) on [Monday](day)?
+    - will you be open at [8:00](hour) on [Monday](day)?
+    - can I visit [now](hour)? are you open?
+    - is the shop open [now](hour)?
+    - are you operating at [11:00](hour)?
+    - are you operating at [13:00](hour) on [Tuesday](day)?
+    - tell me your business hours [now](hour).
+    - will you be available at [8:00](hour)?
+    - what hour do you start business [now](hour)?
+    - can I come by [now](hour)?
+    - is [11:00](hour) a good hour to drop in?
+    - what are your hours of operation [now](hour)?
+    - could I check if you're open [now](hour)?
+    - confirm if you're open [now](hour).
+
+- intent: order_items
+  examples: |
+    - I'd like to order [Oyakodon](product).
+    - I want to order [Katsudon](product).
+    - Please order [Ramen](product).
+    - I'm thinking of ordering [Gyudon](product).
+    - Let's order [Ramen](product) from your menu.
+    - Let's order [Ramen](product) for lunch.
+    - I'd like to order [Katsudon](product) now.
+    - Add [Curry](product) to my order, please.
+    - I wnat to order [Katsudon](product).
+    - Let's order [Ramen](product) from your menu, but without [meat](custom_dish).
+    - Let's order [Ramen](product) without [chicken](custom_dish) for lunch.
+    - I'd like to order [Katsudon](product), no [pork](custom_dish) now.
+    - Add [Curry](product) to my order that's is [not spicy](custom_dish), please.
+    - I wnat to order [Katsudon](product).
+    - Pls order [Ramen](product).
+    - I'm thinking of odering [Gyudon](product).
+    - Let's oder [Ramen](product) from your menu.
+    - Let's order [Ramen](product) for lunch.
+    - I'd like to oder [Katsudon](product) now.
+    - Add [Curry](product) to my oder, pleas.
+    - Lets add [Yaki udon](product) to our oder aswell.
+
+- intent: show_menu
+  examples: |
+    - Please, show me the menu.
+    - Can I see the menu?
+    - What's in the menu?
+    - What can I order?
+    - Show me your menuo.
+    - Can you show me the meun?
+    - What's on your menue?
+    - What can I orderr?
+    - Please display the menoo.
+    - Can you let me see the menue?
+    - What's on the menoo?
+    - Can I order something from your meun?
+    - Show me your menue, pleese.
+    - What can I ordar?
+    - Can I see your menue?
+    - What do you have on your menu?
+
+- intent: order_finished
+  examples: |
+    - That's all
+    - That will be all
+    - Thnaks, that's enoguh
+    - Thnaks
+    - Thx
+    - That's enough
+    - That will be enogh
+    - Thanks, that's al
+    - Tht's al
+    - Thx, that's enough
+    - That's it
+    - That will be enogh
+    - Thank you
+    - Thnkas, that will be al
+    - That's sufficent
+    - Thx, that's it
