@@ -11,4 +11,5 @@
 
 
 ***Demo***
--https://github.com/Lukasz-gro/scripting-languages-course/blob/main/restaurant-chatbot/demo/Demo.png
+
+- https://github.com/Lukasz-gro/scripting-languages-course/blob/main/restaurant-chatbot/demo/Demo.png
