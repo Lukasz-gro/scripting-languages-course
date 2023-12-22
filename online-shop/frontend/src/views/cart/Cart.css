@@ -1,0 +1,12 @@
+.contentBox {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.contentBox>* {
+    margin-right: 2px;
+}
+
+.contentBox>*:last-child {
+    margin-left: auto;
+}
